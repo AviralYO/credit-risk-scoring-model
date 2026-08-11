@@ -48,5 +48,5 @@ df = pd.DataFrame({
     'dti': dti, 'credit_utilization': credit_utilization, 'loan_to_income': loan_to_income,
     'missed_payment_flag': missed_payment_flag, 'loan_status': loan_status
 })
-df.to_csv('/home/claude/credit_risk/lending_data.csv', index=False)
+df.to_csv('/Users/AVIRAL/Downloads/credit-risk-scoring-model/lending_data.csv', index=False)
 print(f"Saved: {df.shape}")

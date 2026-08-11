@@ -35,12 +35,12 @@ from xgboost                  import XGBClassifier
 from imblearn.over_sampling   import SMOTE
 import shap
 
-OUTPUT = '/home/claude/credit_risk/'
+OUTPUT = '/Users/AVIRAL/Downloads/credit-risk-scoring-model/'
 sns.set_theme(style='whitegrid', palette='muted', font_scale=1.1)
 
 # ═════════════════════════════════════════════════════════════════════════════
 # 1. LOAD DATA
-# ═════════════════════════════════════════════════════════════════════════════
+# ══════════════════════════
 print("=" * 60)
 print("STEP 1 — Loading Data")
 print("=" * 60)
